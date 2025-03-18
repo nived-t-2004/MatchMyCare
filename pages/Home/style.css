@@ -178,6 +178,9 @@ section {
   right: 5rem;
 }
 
+.about {
+  /* Responsive Design */
+}
 .about .row {
   display: flex;
   align-items: center;
