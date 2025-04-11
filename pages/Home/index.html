@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header" style=background-color:white;>
+        <a href="#" class="logo">Match<span>My</span>Care</a>
+
+            <!-- <img src="images/logo.png" alt="Match My Care Logo" style="height: 120px; width:1000px; vertical-align: middle; margin-right: 10px;">
+             -->
+        
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#services">services</a>
+            <a href="#contact">contact</a>
+            <a href="#joinus">join us</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="info-btn" class="fas fa-info-circle"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <section class="swiper-slide"
+                    style="background: url(images/home-slider1.jpg) no-repeat; background-position: center; background-size: cover;min-height:100vh;">
+                    <div class="content">
+                        <h3>Compassionate Care, Tailored for You</h3>
+                        <p>Connecting you with trusted home nurses to provide personalized and reliable care for your loved ones.</p>
+                        <a href="#about" class="btn">get started</a>
+                    </div>
+                </section>
+
+                <section class="swiper-slide"
+                    style="background: url(images/home-slider3.jpg) no-repeat; background-position: center; background-size: cover; min-height:100vh;">
+                    <div class="content">
+                        <h3>Safe Travels, Trusted Companion</h3>
+                        <p>Our experienced caregivers are here to support your loved ones- whether at home or on the go.</p>
+                        <a href="#about" class="btn">get started</a>
+                    </div>
+                </section>
+
+                <section class="swiper-slide"
+                    style="background: url(images/home-slider2.jpg) no-repeat; background-position: center; background-size: cover;min-height:100vh;">
+                    <div class="content">
+                        <h3>Your Loved Ones, Our Priority</h3>
+                        <p>We ensure verified, experienced caregivers to deliver trusted care with dignity and respect</p>
+                        <a href="#about" class="btn">get started</a>
+                    </div>
+                </section>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h1 class="heading">about us</h1>
+        <div class="row">
+            <div class="demo">
+                <div class="video">
+                    <video src="videos/ani.mp4" loop muted autoplay alt="Description of the video">
+                </div>
+                
+            <div class="content">
+                <h3>About MatchMyCare</h3>
+                <p>At MatchMyCare, we connect families with trusted home nurses and caregivers,
+                     ensuring compassionate and reliable support for elderly and disabled individuals. 
+                     Our mission is to make care simple, safe, and accessible for everyone.</p>
+                <a href="#services" class="btn">read more</a>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="heading1" id="services">
+        <h1 class="heading"> our services </h1>
+        <div class="box-container">
+            
+              <div class="box">
+                <img src="images/nurse.png" alt="">
+                <h3>Home Nurse</h3>
+              </div>
+               
+                <div class="box1">
+                  <img src="images/guide.png" alt="">
+                  <h3>Travel Guide</h3>
+            
+                </div>   
+        </div>
+    </section>
+    <section class="heading" id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out to us via email.</p>
+        <p>Email: <a href="mailto:matchmycare@gmail.com">matchmycare@gmail.com</a></p>
+      </section>
+    <section class="aheading" id="joinus">
+        <h2>join us</h2>
+        <p>Join the Journey, Care with Purpose</p>
+        <a href="#joinus" class="abtn">Nurse</a>
+        <a href="#joinus" class="abtn">Travelguide</a>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
